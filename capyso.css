@@ -71,7 +71,8 @@ h2 {
 
 
 .page-nav {
-
+  position:fixed;
+  padding-left: 700px;
 }
 
   .page-nav ul {
@@ -81,7 +82,7 @@ h2 {
 
     .page-nav ul li {
       transition: all 300ms ease;
-      left: 0px;
+      left: 0;
       position: relative;
       line-height: 200%;
     }
